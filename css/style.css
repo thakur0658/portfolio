@@ -116,7 +116,7 @@ body{
     border-radius: 10px;
     background:url('./black.gif');
     color:white;
-    width:30%;
+    width:50%;
   }
 
   input[type=text]:focus, input[type=email]:focus {
@@ -129,6 +129,7 @@ body{
       color:white;
       margin-top:20px;
       border-radius:10px;
+
   }
 
   .footer{
