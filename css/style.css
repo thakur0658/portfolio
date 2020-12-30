@@ -109,18 +109,28 @@ body{
       margin-left: 50px;
   }
 
+.chip:hover{
+
+      color:rgb(240, 132, 9);
+      box-shadow: 0 6px 10px rgba(2,2,2,2), 0 0 6px rgba(231, 110, 10, 0.76);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  }
+
   input[type=text], input[type=email] {
     padding: 10px;
     margin: 5px 0 22px 0;
-    display: inline-block;
     border-radius: 10px;
     background:url('./black.gif');
     color:white;
-    width:50%;
+    width:90%;
   }
 
   input[type=text]:focus, input[type=email]:focus {
     color:white;
+    border-radius:10px;
+    color:rgb(240, 132, 9);
+    box-shadow: 0 6px 10px rgba(2,2,2,2), 0 0 6px rgba(231, 110, 10, 0.76);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
   }
   
   .submit{
@@ -138,6 +148,12 @@ body{
       text-align:center;
   }
 
-  
+  .submit:hover{
+        color:rgb(240, 132, 9);
+        box-shadow: 0 6px 10px rgba(2,2,2,2), 0 0 6px rgba(231, 110, 10, 0.76);
+        transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);  
+  }
 
-
+  .submit{
+      margin-left:80%;
+  }
