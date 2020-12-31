@@ -19,9 +19,9 @@
       <div class="row">
         <div class="col-lg-8">
           <div class="text">
-            <h2  class="text-1">Hello! I'm Aditi Thakur-<br><br>Web Developer/Designer</h2><br>
+            <h3  class="text-1">Hello! I'm Aditi Thakur-<br><br>Web Developer/Designer</h3><br>
             <a type="button" class="btn btn-dark" href="#CONTACT"><span style="color:white;"><b>Contact</b></span></a>
-    
+
           </div>
           
         </div>
@@ -33,31 +33,31 @@
     
 <!--navbar  start-->
 
-    <nav class="navbar navbar-expand-lg  mt-2">
-      <div class="container">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item1">
-              <img class="img-responsive" src="./css/BlackStar.png"><b><u>thakur0658</u></b>
-            <li class="nav-item">
-              <a class="nav-link" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" ><img src="./css/BlackStar.png" width="20" height="20"><b>thakur0658</b></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
 <!--navbar end-->
 
     <div class="container" id="about">
@@ -103,7 +103,6 @@
           <i class="fab fa-facebook-f" style="color:white; "></i>
       </a>
   
- 
       <a href="https://twitter.com/AditiSi00044342?s=08">
           <i class="fab fa-twitter" style="color: white;"></i>
       </a>
@@ -129,20 +128,17 @@
   
   <form>
     <div class="container">
+        
+        <label class="text-4" for="email"><b>YOUR GOOD NAME:</b></label><br>
+        <input type="text" placeholder="Enter Name"><br>
     
-      <label for="email"><b>NAME</b></label><br>
-      <input type="text" placeholder="Enter Name"><br>
+        <label class="text-4" for="psw"><b>YOUR EMAIL:</b></label><br>
+        <input type="email" placeholder="Enter Email"><br>
   
-      <label for="psw"><b>EMAIL</b></label><br>
-      <input type="email" placeholder="Enter Email"><br>
-
-      <textarea id="subject" name="subject" placeholder="  Message" style="height:100px; width:90%; border-radius:12px; background:url('./css/black.gif'); margin-top:22px; color:white;"></textarea><br>
-
-      <input class="submit" type="submit" value="Send"> 
-   
-
+        <textarea id="subject" name="subject" placeholder="  Message" style="height:100px; width:100%; border-radius:10px; background:black; margin-top:22px; color:white;"></textarea><br>
   
-      
+        <input class="submit" type="submit" value="Send"> 
+           
       </div>
     
   </form>
